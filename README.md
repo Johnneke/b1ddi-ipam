@@ -14,12 +14,12 @@ Python 2.7 and 3.4+
 ## Installation & Usage
 ### pip install
 
-If the python package is hosted on Github, you can install directly from Github
+You can install directly from Github
 
 ```sh
-pip install git+https://github.com//.git
+pip install git+https://github.com/Johnneke/b1ddi-ipam.git
 ```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com//.git`)
+(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/Johnneke/b1ddi-ipam.git`)
 
 Then import the package:
 ```python
@@ -53,6 +53,7 @@ from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
 configuration = bloxoneddi.Configuration()
+configuration.host = 'https://csp.infoblox.com/api/ddi/v1/'
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
