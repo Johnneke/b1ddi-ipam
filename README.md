@@ -42,6 +42,10 @@ import bloxoneddi
 
 ## Getting Started
 
+Note:
+
+When using other examples then the one below make sure to uncomment the api_key_prefix line and set the prefix to token and add the configuration.host with the correct API endpoint as shown in below example.
+
 Please follow the [installation procedure](#installation--usage) and then run the following:
 
 ```python
@@ -56,7 +60,7 @@ configuration = bloxoneddi.Configuration()
 configuration.host = 'https://csp.infoblox.com/api/ddi/v1/'
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+configuration.api_key_prefix['Authorization'] = 'token'
 
 # create an instance of the API class
 api_instance = bloxoneddi.AddressApi(bloxoneddi.ApiClient(configuration))
