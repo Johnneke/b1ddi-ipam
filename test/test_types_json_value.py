@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.types_json_value import TypesJSONValue  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.types_json_value import TypesJSONValue  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestTypesJSONValue(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestTypesJSONValue(unittest.TestCase):
     def testTypesJSONValue(self):
         """Test TypesJSONValue"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.types_json_value.TypesJSONValue()  # noqa: E501
+        # model = bloxoneipam.models.types_json_value.TypesJSONValue()  # noqa: E501
         pass
 
 

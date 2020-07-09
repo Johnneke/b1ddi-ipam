@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.ipamsvc_hardware_filter import IpamsvcHardwareFilter  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.ipamsvc_hardware_filter import IpamsvcHardwareFilter  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestIpamsvcHardwareFilter(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIpamsvcHardwareFilter(unittest.TestCase):
     def testIpamsvcHardwareFilter(self):
         """Test IpamsvcHardwareFilter"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.ipamsvc_hardware_filter.IpamsvcHardwareFilter()  # noqa: E501
+        # model = bloxoneipam.models.ipamsvc_hardware_filter.IpamsvcHardwareFilter()  # noqa: E501
         pass
 
 

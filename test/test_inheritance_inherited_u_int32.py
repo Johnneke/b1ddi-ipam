@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.inheritance_inherited_u_int32 import InheritanceInheritedUInt32  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.inheritance_inherited_u_int32 import InheritanceInheritedUInt32  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestInheritanceInheritedUInt32(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestInheritanceInheritedUInt32(unittest.TestCase):
     def testInheritanceInheritedUInt32(self):
         """Test InheritanceInheritedUInt32"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.inheritance_inherited_u_int32.InheritanceInheritedUInt32()  # noqa: E501
+        # model = bloxoneipam.models.inheritance_inherited_u_int32.InheritanceInheritedUInt32()  # noqa: E501
         pass
 
 

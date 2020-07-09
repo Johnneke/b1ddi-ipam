@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.api.hardware_filter_api import HardwareFilterApi  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.api.hardware_filter_api import HardwareFilterApi  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestHardwareFilterApi(unittest.TestCase):
     """HardwareFilterApi unit test stubs"""
 
     def setUp(self):
-        self.api = bloxoneddi.api.hardware_filter_api.HardwareFilterApi()  # noqa: E501
+        self.api = bloxoneipam.api.hardware_filter_api.HardwareFilterApi()  # noqa: E501
 
     def tearDown(self):
         pass

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.ipamsvc_read_option_space_response import IpamsvcReadOptionSpaceResponse  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.ipamsvc_read_option_space_response import IpamsvcReadOptionSpaceResponse  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestIpamsvcReadOptionSpaceResponse(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIpamsvcReadOptionSpaceResponse(unittest.TestCase):
     def testIpamsvcReadOptionSpaceResponse(self):
         """Test IpamsvcReadOptionSpaceResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.ipamsvc_read_option_space_response.IpamsvcReadOptionSpaceResponse()  # noqa: E501
+        # model = bloxoneipam.models.ipamsvc_read_option_space_response.IpamsvcReadOptionSpaceResponse()  # noqa: E501
         pass
 
 

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.inheritance_inherited_bool import InheritanceInheritedBool  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.inheritance_inherited_bool import InheritanceInheritedBool  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestInheritanceInheritedBool(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestInheritanceInheritedBool(unittest.TestCase):
     def testInheritanceInheritedBool(self):
         """Test InheritanceInheritedBool"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.inheritance_inherited_bool.InheritanceInheritedBool()  # noqa: E501
+        # model = bloxoneipam.models.inheritance_inherited_bool.InheritanceInheritedBool()  # noqa: E501
         pass
 
 

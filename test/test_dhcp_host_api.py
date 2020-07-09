@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.api.dhcp_host_api import DhcpHostApi  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.api.dhcp_host_api import DhcpHostApi  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestDhcpHostApi(unittest.TestCase):
     """DhcpHostApi unit test stubs"""
 
     def setUp(self):
-        self.api = bloxoneddi.api.dhcp_host_api.DhcpHostApi()  # noqa: E501
+        self.api = bloxoneipam.api.dhcp_host_api.DhcpHostApi()  # noqa: E501
 
     def tearDown(self):
         pass

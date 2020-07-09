@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.api.ip_space_api import IpSpaceApi  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.api.ip_space_api import IpSpaceApi  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestIpSpaceApi(unittest.TestCase):
     """IpSpaceApi unit test stubs"""
 
     def setUp(self):
-        self.api = bloxoneddi.api.ip_space_api.IpSpaceApi()  # noqa: E501
+        self.api = bloxoneipam.api.ip_space_api.IpSpaceApi()  # noqa: E501
 
     def tearDown(self):
         pass

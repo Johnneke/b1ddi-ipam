@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.inheritance_assigned_host import InheritanceAssignedHost  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.inheritance_assigned_host import InheritanceAssignedHost  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestInheritanceAssignedHost(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestInheritanceAssignedHost(unittest.TestCase):
     def testInheritanceAssignedHost(self):
         """Test InheritanceAssignedHost"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.inheritance_assigned_host.InheritanceAssignedHost()  # noqa: E501
+        # model = bloxoneipam.models.inheritance_assigned_host.InheritanceAssignedHost()  # noqa: E501
         pass
 
 

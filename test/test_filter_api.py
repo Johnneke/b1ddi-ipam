@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.api.filter_api import FilterApi  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.api.filter_api import FilterApi  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestFilterApi(unittest.TestCase):
     """FilterApi unit test stubs"""
 
     def setUp(self):
-        self.api = bloxoneddi.api.filter_api.FilterApi()  # noqa: E501
+        self.api = bloxoneipam.api.filter_api.FilterApi()  # noqa: E501
 
     def tearDown(self):
         pass

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.inherited_dhcp_config_filter_list import InheritedDHCPConfigFilterList  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.inherited_dhcp_config_filter_list import InheritedDHCPConfigFilterList  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestInheritedDHCPConfigFilterList(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestInheritedDHCPConfigFilterList(unittest.TestCase):
     def testInheritedDHCPConfigFilterList(self):
         """Test InheritedDHCPConfigFilterList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.inherited_dhcp_config_filter_list.InheritedDHCPConfigFilterList()  # noqa: E501
+        # model = bloxoneipam.models.inherited_dhcp_config_filter_list.InheritedDHCPConfigFilterList()  # noqa: E501
         pass
 
 

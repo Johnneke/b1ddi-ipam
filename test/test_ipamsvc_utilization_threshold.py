@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.ipamsvc_utilization_threshold import IpamsvcUtilizationThreshold  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.ipamsvc_utilization_threshold import IpamsvcUtilizationThreshold  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestIpamsvcUtilizationThreshold(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIpamsvcUtilizationThreshold(unittest.TestCase):
     def testIpamsvcUtilizationThreshold(self):
         """Test IpamsvcUtilizationThreshold"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.ipamsvc_utilization_threshold.IpamsvcUtilizationThreshold()  # noqa: E501
+        # model = bloxoneipam.models.ipamsvc_utilization_threshold.IpamsvcUtilizationThreshold()  # noqa: E501
         pass
 
 

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.ipamsvc_subnet import IpamsvcSubnet  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.ipamsvc_subnet import IpamsvcSubnet  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestIpamsvcSubnet(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIpamsvcSubnet(unittest.TestCase):
     def testIpamsvcSubnet(self):
         """Test IpamsvcSubnet"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.ipamsvc_subnet.IpamsvcSubnet()  # noqa: E501
+        # model = bloxoneipam.models.ipamsvc_subnet.IpamsvcSubnet()  # noqa: E501
         pass
 
 

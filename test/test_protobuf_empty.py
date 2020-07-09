@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.protobuf_empty import ProtobufEmpty  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.protobuf_empty import ProtobufEmpty  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestProtobufEmpty(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestProtobufEmpty(unittest.TestCase):
     def testProtobufEmpty(self):
         """Test ProtobufEmpty"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.protobuf_empty.ProtobufEmpty()  # noqa: E501
+        # model = bloxoneipam.models.protobuf_empty.ProtobufEmpty()  # noqa: E501
         pass
 
 

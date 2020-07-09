@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.api.global_api import GlobalApi  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.api.global_api import GlobalApi  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestGlobalApi(unittest.TestCase):
     """GlobalApi unit test stubs"""
 
     def setUp(self):
-        self.api = bloxoneddi.api.global_api.GlobalApi()  # noqa: E501
+        self.api = bloxoneipam.api.global_api.GlobalApi()  # noqa: E501
 
     def tearDown(self):
         pass

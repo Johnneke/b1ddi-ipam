@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.ipamsvc_create_ip_space_response import IpamsvcCreateIPSpaceResponse  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.ipamsvc_create_ip_space_response import IpamsvcCreateIPSpaceResponse  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestIpamsvcCreateIPSpaceResponse(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIpamsvcCreateIPSpaceResponse(unittest.TestCase):
     def testIpamsvcCreateIPSpaceResponse(self):
         """Test IpamsvcCreateIPSpaceResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.ipamsvc_create_ip_space_response.IpamsvcCreateIPSpaceResponse()  # noqa: E501
+        # model = bloxoneipam.models.ipamsvc_create_ip_space_response.IpamsvcCreateIPSpaceResponse()  # noqa: E501
         pass
 
 

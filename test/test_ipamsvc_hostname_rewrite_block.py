@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.ipamsvc_hostname_rewrite_block import IpamsvcHostnameRewriteBlock  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.ipamsvc_hostname_rewrite_block import IpamsvcHostnameRewriteBlock  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestIpamsvcHostnameRewriteBlock(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIpamsvcHostnameRewriteBlock(unittest.TestCase):
     def testIpamsvcHostnameRewriteBlock(self):
         """Test IpamsvcHostnameRewriteBlock"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.ipamsvc_hostname_rewrite_block.IpamsvcHostnameRewriteBlock()  # noqa: E501
+        # model = bloxoneipam.models.ipamsvc_hostname_rewrite_block.IpamsvcHostnameRewriteBlock()  # noqa: E501
         pass
 
 

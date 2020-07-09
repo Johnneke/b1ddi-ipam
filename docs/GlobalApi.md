@@ -1,4 +1,4 @@
-# bloxoneddi.GlobalApi
+# bloxoneipam.GlobalApi
 
 All URIs are relative to *https://csp.infoblox.com/api/ddi/v1/*
 
@@ -21,18 +21,18 @@ Use this method to read the Global configuration object. Service operates on Glo
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.GlobalApi(bloxoneddi.ApiClient(configuration))
+api_instance = bloxoneipam.GlobalApi(bloxoneipam.ApiClient(configuration))
 fields = 'fields_example' # str |   A collection of response resources can be transformed by specifying a set of JSON tags to be returned. For a “flat” resource, the tag name is straightforward. If field selection is allowed on non-flat hierarchical resources, the service should implement a qualified naming scheme such as dot-qualification to reference data down the hierarchy. If a resource does not have the specified tag, the tag does not appear in the output resource.  Specify this parameter as a comma-separated list of JSON tag names.         (optional)
 
 try:
@@ -75,18 +75,18 @@ Use this method to read the Global configuration object. Service operates on Glo
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.GlobalApi(bloxoneddi.ApiClient(configuration))
+api_instance = bloxoneipam.GlobalApi(bloxoneipam.ApiClient(configuration))
 id = 'id_example' # str | An application specific resource identity of a resource
 fields = 'fields_example' # str |   A collection of response resources can be transformed by specifying a set of JSON tags to be returned. For a “flat” resource, the tag name is straightforward. If field selection is allowed on non-flat hierarchical resources, the service should implement a qualified naming scheme such as dot-qualification to reference data down the hierarchy. If a resource does not have the specified tag, the tag does not appear in the output resource.  Specify this parameter as a comma-separated list of JSON tag names.         (optional)
 
@@ -131,19 +131,19 @@ Use this method to update the Global configuration object. Service operates on G
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.GlobalApi(bloxoneddi.ApiClient(configuration))
-body = bloxoneddi.IpamsvcGlobal() # IpamsvcGlobal | 
+api_instance = bloxoneipam.GlobalApi(bloxoneipam.ApiClient(configuration))
+body = bloxoneipam.IpamsvcGlobal() # IpamsvcGlobal | 
 
 try:
     # Update the Global configuration object.
@@ -185,20 +185,20 @@ Use this method to update the Global configuration object. Service operates on G
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.GlobalApi(bloxoneddi.ApiClient(configuration))
+api_instance = bloxoneipam.GlobalApi(bloxoneipam.ApiClient(configuration))
 id = 'id_example' # str | An application specific resource identity of a resource
-body = bloxoneddi.IpamsvcGlobal() # IpamsvcGlobal | 
+body = bloxoneipam.IpamsvcGlobal() # IpamsvcGlobal | 
 
 try:
     # Update the Global configuration object.

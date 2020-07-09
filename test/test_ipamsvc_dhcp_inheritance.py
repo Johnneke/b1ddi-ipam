@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.ipamsvc_dhcp_inheritance import IpamsvcDHCPInheritance  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.ipamsvc_dhcp_inheritance import IpamsvcDHCPInheritance  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestIpamsvcDHCPInheritance(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIpamsvcDHCPInheritance(unittest.TestCase):
     def testIpamsvcDHCPInheritance(self):
         """Test IpamsvcDHCPInheritance"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.ipamsvc_dhcp_inheritance.IpamsvcDHCPInheritance()  # noqa: E501
+        # model = bloxoneipam.models.ipamsvc_dhcp_inheritance.IpamsvcDHCPInheritance()  # noqa: E501
         pass
 
 

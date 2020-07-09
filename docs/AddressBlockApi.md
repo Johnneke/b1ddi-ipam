@@ -1,4 +1,4 @@
-# bloxoneddi.AddressBlockApi
+# bloxoneipam.AddressBlockApi
 
 All URIs are relative to *https://csp.infoblox.com/api/ddi/v1/*
 
@@ -24,19 +24,19 @@ Use this method to create an Address Block object. The Address Block object allo
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.AddressBlockApi(bloxoneddi.ApiClient(configuration))
-body = bloxoneddi.IpamsvcAddressBlock() # IpamsvcAddressBlock | 
+api_instance = bloxoneipam.AddressBlockApi(bloxoneipam.ApiClient(configuration))
+body = bloxoneipam.IpamsvcAddressBlock() # IpamsvcAddressBlock | 
 
 try:
     # Create the Address Block object.
@@ -78,18 +78,18 @@ Use this method to create a Next Available IP object. The Next Available IP is a
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.AddressBlockApi(bloxoneddi.ApiClient(configuration))
+api_instance = bloxoneipam.AddressBlockApi(bloxoneipam.ApiClient(configuration))
 id = 'id_example' # str | An application specific resource identity of a resource
 
 try:
@@ -132,18 +132,18 @@ Use this method to delete an Address Block object. The Address Block object allo
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.AddressBlockApi(bloxoneddi.ApiClient(configuration))
+api_instance = bloxoneipam.AddressBlockApi(bloxoneipam.ApiClient(configuration))
 id = 'id_example' # str | An application specific resource identity of a resource
 
 try:
@@ -185,18 +185,18 @@ Use this method to list Address Block objects. The Address Block object allows a
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.AddressBlockApi(bloxoneddi.ApiClient(configuration))
+api_instance = bloxoneipam.AddressBlockApi(bloxoneipam.ApiClient(configuration))
 fields = 'fields_example' # str |   A collection of response resources can be transformed by specifying a set of JSON tags to be returned. For a “flat” resource, the tag name is straightforward. If field selection is allowed on non-flat hierarchical resources, the service should implement a qualified naming scheme such as dot-qualification to reference data down the hierarchy. If a resource does not have the specified tag, the tag does not appear in the output resource.  Specify this parameter as a comma-separated list of JSON tag names.         (optional)
 filter = 'filter_example' # str |   A collection of response resources can be filtered by a logical expression string that includes JSON tag references to values in each resource, literal values, and logical operators. If a resource does not have the specified tag, its value is assumed to be null.  Literal values include numbers (integer and floating-point), and quoted (both single- or double-quoted) literal strings, and 'null'. The following operators are commonly used in filter expressions:  |  Op   |  Description               |  |  --   |  -----------               |  |  ==   |  Equal                     |  |  !=   |  Not Equal                 |  |  >    |  Greater Than              |  |   >=  |  Greater Than or Equal To  |  |  <    |  Less Than                 |  |  <=   |  Less Than or Equal To     |  |  and  |  Logical AND               |  |  ~    |  Matches Regex             |  |  !~   |  Does Not Match Regex      |  |  or   |  Logical OR                |  |  not  |  Logical NOT               |  |  ()   |  Groupping Operators       |         (optional)
 offset = 56 # int |   The integer index (zero-origin) of the offset into a collection of resources. If omitted or null the value is assumed to be '0'.          (optional)
@@ -253,18 +253,18 @@ Use this method to list Next Available IP objects. The Next Available IP is a ge
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.AddressBlockApi(bloxoneddi.ApiClient(configuration))
+api_instance = bloxoneipam.AddressBlockApi(bloxoneipam.ApiClient(configuration))
 id = 'id_example' # str | An application specific resource identity of a resource
 contiguous = true # bool |  (optional)
 count = 56 # int |  (optional)
@@ -311,18 +311,18 @@ Use this method to read an Address Block object. The AddressBlock object allows 
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.AddressBlockApi(bloxoneddi.ApiClient(configuration))
+api_instance = bloxoneipam.AddressBlockApi(bloxoneipam.ApiClient(configuration))
 id = 'id_example' # str | An application specific resource identity of a resource
 fields = 'fields_example' # str |   A collection of response resources can be transformed by specifying a set of JSON tags to be returned. For a “flat” resource, the tag name is straightforward. If field selection is allowed on non-flat hierarchical resources, the service should implement a qualified naming scheme such as dot-qualification to reference data down the hierarchy. If a resource does not have the specified tag, the tag does not appear in the output resource.  Specify this parameter as a comma-separated list of JSON tag names.         (optional)
 
@@ -367,20 +367,20 @@ Use this method to update an Address Block object. The Address Block object allo
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.AddressBlockApi(bloxoneddi.ApiClient(configuration))
+api_instance = bloxoneipam.AddressBlockApi(bloxoneipam.ApiClient(configuration))
 id = 'id_example' # str | An application specific resource identity of a resource
-body = bloxoneddi.IpamsvcAddressBlock() # IpamsvcAddressBlock | 
+body = bloxoneipam.IpamsvcAddressBlock() # IpamsvcAddressBlock | 
 
 try:
     # Update the Address Block object.

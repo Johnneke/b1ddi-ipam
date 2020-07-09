@@ -23,7 +23,7 @@ pip install git+https://github.com/Johnneke/b1ddi-ipam.git
 
 Then import the package:
 ```python
-import bloxoneddi 
+import bloxoneipam 
 ```
 
 ### Setuptools
@@ -37,7 +37,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import bloxoneddi
+import bloxoneipam
 ```
 
 ## Getting Started
@@ -51,20 +51,20 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.host = 'https://csp.infoblox.com/api/ddi/v1/'
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 configuration.api_key_prefix['Authorization'] = 'token'
 
 # create an instance of the API class
-api_instance = bloxoneddi.AddressApi(bloxoneddi.ApiClient(configuration))
-body = bloxoneddi.IpamsvcAddress() # IpamsvcAddress | 
+api_instance = bloxoneipam.AddressApi(bloxoneipam.ApiClient(configuration))
+body = bloxoneipam.IpamsvcAddress() # IpamsvcAddress | 
 
 try:
     # Create the Address object.

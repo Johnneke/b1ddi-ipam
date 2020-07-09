@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.ipamsvc_list_option_group_response import IpamsvcListOptionGroupResponse  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.ipamsvc_list_option_group_response import IpamsvcListOptionGroupResponse  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestIpamsvcListOptionGroupResponse(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIpamsvcListOptionGroupResponse(unittest.TestCase):
     def testIpamsvcListOptionGroupResponse(self):
         """Test IpamsvcListOptionGroupResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.ipamsvc_list_option_group_response.IpamsvcListOptionGroupResponse()  # noqa: E501
+        # model = bloxoneipam.models.ipamsvc_list_option_group_response.IpamsvcListOptionGroupResponse()  # noqa: E501
         pass
 
 

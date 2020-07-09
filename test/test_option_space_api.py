@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.api.option_space_api import OptionSpaceApi  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.api.option_space_api import OptionSpaceApi  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestOptionSpaceApi(unittest.TestCase):
     """OptionSpaceApi unit test stubs"""
 
     def setUp(self):
-        self.api = bloxoneddi.api.option_space_api.OptionSpaceApi()  # noqa: E501
+        self.api = bloxoneipam.api.option_space_api.OptionSpaceApi()  # noqa: E501
 
     def tearDown(self):
         pass

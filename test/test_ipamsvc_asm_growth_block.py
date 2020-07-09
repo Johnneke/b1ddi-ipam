@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.ipamsvc_asm_growth_block import IpamsvcAsmGrowthBlock  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.ipamsvc_asm_growth_block import IpamsvcAsmGrowthBlock  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestIpamsvcAsmGrowthBlock(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIpamsvcAsmGrowthBlock(unittest.TestCase):
     def testIpamsvcAsmGrowthBlock(self):
         """Test IpamsvcAsmGrowthBlock"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.ipamsvc_asm_growth_block.IpamsvcAsmGrowthBlock()  # noqa: E501
+        # model = bloxoneipam.models.ipamsvc_asm_growth_block.IpamsvcAsmGrowthBlock()  # noqa: E501
         pass
 
 

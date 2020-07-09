@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.ipamsvc_option_filter_rule_list import IpamsvcOptionFilterRuleList  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.ipamsvc_option_filter_rule_list import IpamsvcOptionFilterRuleList  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestIpamsvcOptionFilterRuleList(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIpamsvcOptionFilterRuleList(unittest.TestCase):
     def testIpamsvcOptionFilterRuleList(self):
         """Test IpamsvcOptionFilterRuleList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.ipamsvc_option_filter_rule_list.IpamsvcOptionFilterRuleList()  # noqa: E501
+        # model = bloxoneipam.models.ipamsvc_option_filter_rule_list.IpamsvcOptionFilterRuleList()  # noqa: E501
         pass
 
 

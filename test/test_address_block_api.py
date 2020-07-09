@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.api.address_block_api import AddressBlockApi  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.api.address_block_api import AddressBlockApi  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestAddressBlockApi(unittest.TestCase):
     """AddressBlockApi unit test stubs"""
 
     def setUp(self):
-        self.api = bloxoneddi.api.address_block_api.AddressBlockApi()  # noqa: E501
+        self.api = bloxoneipam.api.address_block_api.AddressBlockApi()  # noqa: E501
 
     def tearDown(self):
         pass

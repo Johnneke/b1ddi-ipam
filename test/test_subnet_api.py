@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.api.subnet_api import SubnetApi  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.api.subnet_api import SubnetApi  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestSubnetApi(unittest.TestCase):
     """SubnetApi unit test stubs"""
 
     def setUp(self):
-        self.api = bloxoneddi.api.subnet_api.SubnetApi()  # noqa: E501
+        self.api = bloxoneipam.api.subnet_api.SubnetApi()  # noqa: E501
 
     def tearDown(self):
         pass

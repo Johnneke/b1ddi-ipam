@@ -18,7 +18,7 @@ import re  # noqa: F401
 # python 2 and python 3 compatibility library
 import six
 
-from bloxoneddi.api_client import ApiClient
+from bloxoneipam.api_client import ApiClient
 
 
 class OptionGroupApi(object):

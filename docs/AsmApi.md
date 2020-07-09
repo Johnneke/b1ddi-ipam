@@ -1,4 +1,4 @@
-# bloxoneddi.AsmApi
+# bloxoneipam.AsmApi
 
 All URIs are relative to *https://csp.infoblox.com/api/ddi/v1/*
 
@@ -20,19 +20,19 @@ Use this method to create an ASM object. The ASM object generates and returns th
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.AsmApi(bloxoneddi.ApiClient(configuration))
-body = bloxoneddi.IpamsvcASM() # IpamsvcASM | 
+api_instance = bloxoneipam.AsmApi(bloxoneipam.ApiClient(configuration))
+body = bloxoneipam.IpamsvcASM() # IpamsvcASM | 
 
 try:
     # Create the ASM object.
@@ -74,18 +74,18 @@ Use this method to list ASM objects. The ASM object generates and returns the su
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.AsmApi(bloxoneddi.ApiClient(configuration))
+api_instance = bloxoneipam.AsmApi(bloxoneipam.ApiClient(configuration))
 fields = 'fields_example' # str |   A collection of response resources can be transformed by specifying a set of JSON tags to be returned. For a “flat” resource, the tag name is straightforward. If field selection is allowed on non-flat hierarchical resources, the service should implement a qualified naming scheme such as dot-qualification to reference data down the hierarchy. If a resource does not have the specified tag, the tag does not appear in the output resource.  Specify this parameter as a comma-separated list of JSON tag names.         (optional)
 subnet_id = 'subnet_id_example' # str |  (optional)
 
@@ -130,18 +130,18 @@ Use this method to read an ASM object. The ASM object returns the suggested upda
 ```python
 from __future__ import print_function
 import time
-import bloxoneddi
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: ApiKeyAuth
-configuration = bloxoneddi.Configuration()
+configuration = bloxoneipam.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = bloxoneddi.AsmApi(bloxoneddi.ApiClient(configuration))
+api_instance = bloxoneipam.AsmApi(bloxoneipam.ApiClient(configuration))
 id = 'id_example' # str | An application specific resource identity of a resource
 fields = 'fields_example' # str |   A collection of response resources can be transformed by specifying a set of JSON tags to be returned. For a “flat” resource, the tag name is straightforward. If field selection is allowed on non-flat hierarchical resources, the service should implement a qualified naming scheme such as dot-qualification to reference data down the hierarchy. If a resource does not have the specified tag, the tag does not appear in the output resource.  Specify this parameter as a comma-separated list of JSON tag names.         (optional)
 

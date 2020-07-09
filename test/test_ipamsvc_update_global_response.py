@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import bloxoneddi
-from bloxoneddi.models.ipamsvc_update_global_response import IpamsvcUpdateGlobalResponse  # noqa: E501
-from bloxoneddi.rest import ApiException
+import bloxoneipam
+from bloxoneipam.models.ipamsvc_update_global_response import IpamsvcUpdateGlobalResponse  # noqa: E501
+from bloxoneipam.rest import ApiException
 
 
 class TestIpamsvcUpdateGlobalResponse(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestIpamsvcUpdateGlobalResponse(unittest.TestCase):
     def testIpamsvcUpdateGlobalResponse(self):
         """Test IpamsvcUpdateGlobalResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = bloxoneddi.models.ipamsvc_update_global_response.IpamsvcUpdateGlobalResponse()  # noqa: E501
+        # model = bloxoneipam.models.ipamsvc_update_global_response.IpamsvcUpdateGlobalResponse()  # noqa: E501
         pass
 
 
