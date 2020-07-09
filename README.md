@@ -72,7 +72,7 @@ except ApiException as e:
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://localhost/api/ddi/v1/*
+All URIs are relative to *https://csp.infoblox.com/api/ddi/v1/*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

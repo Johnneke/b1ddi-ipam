@@ -1,6 +1,6 @@
 # bloxoneddi.AsmApi
 
-All URIs are relative to *http://localhost/api/ddi/v1/*
+All URIs are relative to *https://csp.infoblox.com/api/ddi/v1/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
